@@ -1,0 +1,146 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.navLink {
+  display: flex;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.pg {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: royalblue;
+}
+a:link {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: royalblue;
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.lightTrail {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 300px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border: 2px solid white;
+  z-index: 4;
+  color: white;
+  position: relative;
+  z-index: 2;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.welcomeH1,
+.welcomeH3 {
+  text-align: center;
+  color: royalblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcomeP {
+  font-weight: 300;
+  line-height: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerCity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.header {
+  padding: 20px;
+}
+
+.wirralH3 {
+  text-align: center;
+  color: royalblue;
+}
+
+.everConsidered {
+  border: 2px solid white;
+  color: white;
+  text-align: left;
+  max-width: 600px;
+  box-shadow: 0 0 5px 5px white;
+  padding: 10px;
+}
+
+.aboutTheWirral {
+  border: 2px solid white;
+  color: white;
+  text-align: left;
+  max-width: 600px;
+  box-shadow: 0 0 5px 5px white;
+  padding: 10px;
+}
+
+.homeH3 {
+  color: royalblue;
+}
+
+.exploringNW {
+  max-width: 600px;
+  border: 2px solid white;
+  color: white;
+  padding: 10px;
+}
+
+.nwWelcome {
+  color: white;
+  text-align: left;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  max-width: 600px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.galleryH3 {
+  color: royalblue;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gallery {
+  max-width: 600px;
+  border: 2px solid white;
+}
